@@ -2,9 +2,64 @@
 
 /* git -u use for add only update file*/
 * {
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background: rgb(254,255,0);
+    background: linear-gradient(90deg, rgba(254,255,0,1) 0%, rgba(236,237,0,1) 92%, rgba(140,145,0,1) 100%);
+    border: 1px grey solid;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    float: left;
+    background: rgb(254,255,0);
+    border: 1px grey solid;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+}
+
+article {
+    float: left;
+    background: rgb(254,255,0);
+    border: 1px grey solid;
+    text-align: center;
+    padding: 10px;
+    width: 60%;
+}
+
+div {
+    float: left;
+    background: rgb(254,255,0);
+    border: 1px grey solid;
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+}
+
+footer {
+    width: 100%;
+    background: rgb(254,255,0);
+    background: linear-gradient(90deg, rgba(254,255,0,1) 0%, rgba(236,237,0,1) 92%, rgba(140,145,0,1) 100%);
+    border: 1px grey solid;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
+
+nav , div , article {
+    height: 200px;
+}
+
+/* do as follow in home exercise in CS100 week 5 slide */
