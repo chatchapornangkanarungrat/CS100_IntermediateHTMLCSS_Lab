@@ -71,16 +71,23 @@ main {
 ### Step 4: Styling the Footer
 - Since the `nav` and `main` sections are floated, ensure the footer stays below them by clearing the floats by adding relevant CSS styles to achieve this.
 ```css
-footer p {
-    margin: 0;
-    clear: both;
-}
+
 ```
 
 ---
 ### Step 5: Keeping the Navigation Bar Visible
 - Add CSS to position the `nav` element so that the navigation stays fixed while scrolling.
 ```css
+nav {
+    background-color: #ffa41b;
+    padding-top: 15px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 100vh;    /*viewport height*/
+    position: sticky;
+    top: 0px;
+}
 ```
 
 ---
